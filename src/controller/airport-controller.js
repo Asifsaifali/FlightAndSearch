@@ -8,7 +8,7 @@ const create=async(req,res)=>{
         return res.status(200).json({
             data: airport,
             success: true,
-            message: "Airplne created successfully",
+            message: "Airports created successfully",
             err: {},
         })
         

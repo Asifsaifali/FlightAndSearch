@@ -3,7 +3,7 @@
    const bodyparser=require('body-parser')
    const ApiRoutes=require('./routes/index');
 
-   const {City,Flight}=require('./models/index')
+   const { City, Flight }=require('./models/index')
 const db=require('./models/index')
 
     const Setupserver=async()=>{
@@ -18,7 +18,7 @@ const db=require('./models/index')
             console.log(`Server is running at port ${PORT}`);
 
             // await Flight.create({
-            //     flightnumber:"AA201 ",
+            //     flightnumber:"BA201 ",
             //     airplaneId:1,
             //     departureAirportId:2,
             //     arrivalAirportId:4,
